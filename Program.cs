@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace FirstProgram {
     class Program {
         static void Main(string[] args) {
@@ -129,17 +128,130 @@ namespace FirstProgram {
             // if (isLazy || isTall) {
             //     Console.WriteLine("You are either tall or lazy!");
             // }
+
+        // -------------------------------------------------------------
+
+            /*
+                Calculator Program in C#
+            */
+
+            // CalculatorStart();
+
+        // -------------------------------------------------------------
+
+            /*
+                Switch Statements in C#
+            */
+
+            // int value = 4;
+            // Console.WriteLine(getDay(value));
         }
 
-        // part of `Working with Functions/Method with no return Value (void)`
-        // static void SayHello(string name) {
-        //     Console.WriteLine("Hello " + name);
-        // }
+    // PART OF Calculator Program in C#
+    //  static void CalculatorStart() {
+    //         double result;
+    //         char symbol;
+    //         Console.WriteLine("Hello there! Welcome to this small Calculator program!\nPlease type in the number you want to perform beside their respective operation!");
+    //         Console.WriteLine("[1] Addition (default)\n[2] Subtraction\n[3] Multiplication\n[4] Division (Return Remainder)\n[5] Division (return Quotient)");
+    //         Console.Write("Enter your choice: ");
+    //         int choice = Convert.ToInt32(Console.ReadLine());
+    //         Console.Write("Enter the first number: ");
+    //         double number1 = Convert.ToInt32(Console.ReadLine());
+    //         Console.Write("Enter the second number: ");
+    //         double number2 = Convert.ToInt32(Console.ReadLine());
+    //         if (choice == 1) {
+    //             result = CalculateNumbers(number1, number2, "add");
+    //             symbol = '+';
+    //         }
+    //         else if (choice == 2) {
+    //             result =CalculateNumbers(number1, number2, "subtract");
+    //             symbol = '-';
+    //         }
+    //         else if (choice == 3) { 
+    //             result = CalculateNumbers(number1, number2, "multiply");
+    //             symbol = 'x';
+    //         }
+    //         else if (choice == 4) {
+    //             result = CalculateNumbers(number1, number2, "mod");
+    //             symbol = '%';
+    //         }
+    //         else if (choice == 5) {
+    //             result = CalculateNumbers(number1, number2, "divide");
+    //             symbol = '/';
+    //         }
+    //         else {
+    //             result = CalculateNumbers(number1, number2, "add");
+    //             symbol = '+';
+    //         }
+    //         Console.WriteLine(number1 + " " + symbol + " " + number2 + " = " + result);
+    //     }
 
-        // part of `Working with Functions/Method with a return value (int/string/array/etc)`
-        // static int Cube(int number) {
-        //     int numberCube = number * number * number;
-        //     return numberCube;
-        // }
+    //     static double CalculateNumbers(double number1, double number2, string choice) {
+    //         double result;
+    //         if (choice == "add") {
+    //             result = number1 + number2;
+    //         }
+    //         else if (choice == "subtract") {
+    //             result = number1 - number2;
+    //         }
+    //         else if (choice == "multiply") {
+    //             result = number1 * number2;
+    //         }
+    //         else if (choice == "mod") {
+    //             result = number1 % number2;
+    //         }
+    //         else if (choice == "divide") {
+    //             result = number1 / number2;
+    //         }
+    //         else {
+    //             result = number1 + number2;
+    //         }
+    //         return result;
+    //     }
+
+
+    // part of `Working with Functions/Method with no return Value (void)`
+    // static void SayHello(string name) {
+    //     Console.WriteLine("Hello " + name);
+    // }
+
+    // part of `Working with Functions/Method with a return value (int/string/array/etc)`
+    // static int Cube(int number) {
+    //     int numberCube = number * number * number;
+    //     return numberCube;
+    // }
+
+    // PART OF switch statements in C#
+    // static string getDay(int dayNumber) {
+    //     string dayName;
+    //     switch (dayNumber) {
+    //         case 0:
+    //             dayName = "Sunday";
+    //             break;
+    //         case 1:
+    //             dayName = "Monday";
+    //             break;
+    //         case 2:
+    //             dayName = "Tuesday";
+    //             break;
+    //         case 3:
+    //             dayName = "Wednesday";
+    //             break;
+    //         case 4:
+    //             dayName = "Thursday";
+    //             break;
+    //         case 5:
+    //             dayName = "Friday";
+    //             break;
+    //         case 6:
+    //             dayName = "Saturday";
+    //             break;
+    //         default:
+    //             dayName = "Invalid Day Number";
+    //             break;
+    //     }
+    //     return dayName;
+    // }
     }
+
 }
