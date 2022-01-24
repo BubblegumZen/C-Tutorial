@@ -3,7 +3,6 @@
 
 namespace FirstProgram {
     class Program {
-        
         static void Main(string[] args) {
         // ------------------------------------------------------------
 
@@ -110,6 +109,26 @@ namespace FirstProgram {
             // int Cubed = Cube(300);
             // Console.WriteLine("Cube of 300 is " + Cubed);
             
+        // -------------------------------------------------------------
+
+            /*
+                if | else if | else | OR (||) | AND (||) statements in C#
+            */
+
+            // bool isLazy = true;
+            // bool isTall = false;
+            // if (isLazy && isTall) {
+            //     Console.WriteLine("You are lazy and tall!");
+            // } 
+            // else if (isLazy && !isTall) {
+            //     Console.WriteLine("You are lazy but not tall!");
+            // }
+            // else if (!isLazy && isTall) {
+            //     Console.WriteLine("You are not lazy but tall!");
+            // }
+            // if (isLazy || isTall) {
+            //     Console.WriteLine("You are either tall or lazy!");
+            // }
         }
 
         // part of `Working with Functions/Method with no return Value (void)`
