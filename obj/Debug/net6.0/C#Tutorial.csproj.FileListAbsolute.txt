@@ -1,0 +1,15 @@
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.csproj.AssemblyReference.cache
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.AssemblyInfoInputs.cache
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.AssemblyInfo.cs
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.csproj.CoreCompileInputs.cache
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/C#Tutorial
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/C#Tutorial.deps.json
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/C#Tutorial.runtimeconfig.json
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/C#Tutorial.dll
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/ref/C#Tutorial.dll
+/home/rose/Desktop/C#Tutorial/bin/Debug/net6.0/C#Tutorial.pdb
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.dll
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/ref/C#Tutorial.dll
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.pdb
+/home/rose/Desktop/C#Tutorial/obj/Debug/net6.0/C#Tutorial.genruntimeconfig.cache
