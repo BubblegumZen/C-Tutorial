@@ -145,7 +145,89 @@ namespace FirstProgram {
 
             // int value = 4;
             // Console.WriteLine(getDay(value));
+
+        // -------------------------------------------------------------
+
+            /*
+                Guessing Game in C# with a do while loop!
+            */
+
+
+           // GuessGameStart();
+
+        // -------------------------------------------------------------
+
+
+             /*
+                 Exponent function in C#
+            */
+
+            // int a = 3;
+            // int b = 20000;
+            // Console.WriteLine(Power(a,b));
+
+         // -------------------------------------------------------------
+            /*
+                PART OF Try catch in C# (Equivalent of try except in python)
+            */
+            // double number1 = GetNumber("First");
+            // double number2 = GetNumber("Second");
+            // Console.WriteLine("Sum is " + (number1 + number2));
+
+         // -------------------------------------------------------------
+            
         }
+
+
+    // PART OF Try catch in C# (Equivalent of try except in python)
+    // static double GetNumber(string indexNumber) {
+    //     double number;
+    //     while (true) {
+    //         Console.Write("Enter your " + indexNumber + " Number: ");
+    //         try {
+    //             number = Convert.ToDouble(Console.ReadLine());
+    //             break;
+    //         }
+    //         catch (FormatException) {
+    //             Console.WriteLine("You have to enter a proper number");
+    //             continue;
+    //         }
+    //     }
+    //     return number;
+    // }
+
+        
+    // PART OF Exponent function in C#
+    // static double Power(double number1, double number2) {
+    //     double result;
+    //     result = number1;
+    //     for (int index = 1; index < number2; index++) {
+    //         result = result * number1;
+    //     }
+    //     return result;
+    // }
+
+    // static void GuessGameStart() {
+    //     string secretWord = "cool gang";
+    //     string guess = "";
+    //     int chances = 0;
+    //     do {
+    //         Console.Write("Enter your guess: ");
+    //         chances++;
+    //         if (chances > 3) {
+    //             Console.WriteLine("You ran out of attempts!");
+    //             break;
+    //         }
+    //         guess = Console.ReadLine();
+    //     } while (guess != secretWord);
+    //     if (chances > 3) {
+    //         Console.WriteLine("You lost the game!!");
+    //     }
+    //     else {
+    //         Console.WriteLine("You guessed it correctly!");
+    //     }
+    
+    // }
 
     // PART OF Calculator Program in C#
     //  static void CalculatorStart() {
